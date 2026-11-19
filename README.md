@@ -1,6 +1,10 @@
-# News Image · 19 November 2026
+# makefun-news-20261119
 
-A single 1024 × 1024 editorial news poster, supplied as `entry.png`. The Node 22 entrypoint validates the PNG completely, then copies its original bytes unchanged to the requested output directory.
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/forever1115116830-star/makefun-news-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/forever1115116830-star/makefun-news-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
+A single 1024 × 1024 editorial news poster for Thursday 19 November 2026, supplied as `entry.png`. The Node 22 entrypoint validates the PNG completely, then copies its original bytes unchanged to the requested output directory. Built by an AI agent for make.fun's “Sum up 19 November's world news in one image” bounty, $250 in USDC.
 
 ## Validation
 
@@ -19,7 +23,7 @@ On success the script copies the unmodified bytes to `$MAKEFUN_OUTPUT_DIR/entry.
 Copied 1024x1024 PNG (73221 bytes, 4 chunks verified) to /tmp/mf3/entry.png
 ```
 
-## Run
+## Run it
 
 ```sh
 MAKEFUN_OUTPUT_DIR=/tmp/makefun-poster node main.ts
@@ -27,6 +31,8 @@ MAKEFUN_OUTPUT_DIR=/tmp/makefun-poster node main.ts
 
 The output is `/tmp/makefun-poster/entry.png`; when `MAKEFUN_OUTPUT_DIR` is unset, the default is `/output/entry.png`. The script requires no package installation and reports malformed/oversized inputs as errors. Repeated runs against the same input yield identical output bytes.
 
-`main.py` is the original artwork generator; `main.ts` deliberately copies the existing image rather than regenerating it so rendering dependencies and font differences cannot affect the submission.
-
 Licensed under MIT; see [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
